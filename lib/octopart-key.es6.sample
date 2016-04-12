@@ -1,0 +1,2 @@
+// rename this file to octopart-key.es6
+export default "api-key-goes-here"

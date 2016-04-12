@@ -1,0 +1,78 @@
+@import "ui-variables";
+@import "ui-mixins";
+
+
+@base: #3472bc;
+@light: #47a2f2;
+@fontColor: white;
+
+.octopartDiv {
+  border-radius: 5px;
+  margin:5px;
+  background-color: @base;
+  padding: 5px;
+}
+
+.octopartLabel {
+  color: @fontColor;
+  font-weight: bold;
+}
+
+.octopartButton {
+  background-color: @light;
+  color: @fontColor;
+  border: none;
+}
+
+.octopartButton:hover {
+  background-color: #5B90FB;
+}
+
+.octopartInput {
+  display: inline;
+  margin-right: 5px;
+  max-width: 200px;
+  border-radius: 3px;
+}
+
+.octopartResults {
+  margin-top:10px;
+  background-color: white;
+  border-radius:2px;
+  padding-left:2px;
+}
+
+.octopartImage {
+  float: left;
+  padding-right: 5px;
+}
+
+.octopartDescription {
+  min-height:60px;
+}
+
+.octopartRes{
+  font-weight: bold;
+}
+
+.octopartSection{
+  width: 50px;
+  float: left;
+}
+
+.octopartSectionHeader{
+  width: 50px;
+  float: left;
+  font-weight: bold;
+}
+
+.octopartPricing{
+  display: inline-block;
+  width: 100%;
+}
+
+.octopartError {
+  color: @fontColor;
+  width:100%;
+  text-align: center;
+}
