@@ -1,5 +1,5 @@
 {
-  "name": "github_notifications",
+  "name": "octopart_search",
   "main": "./lib/main",
   "version": "0.1.0",
   "repository": {
@@ -13,7 +13,7 @@
     "default": true,
     "composer": true
   },
-  "description": "Enter a description of your package!",
+  "description": "Searches octopart for prices",
   "dependencies": {
     "request": "^2.70.0",
     "underscore": "^1.8.3"
